@@ -17,9 +17,9 @@ potatocnn = keras.models.load_model('potatoCNN.h5',compile=False)
 bellpeppercnn = keras.models.load_model('bellpepperCNN.h5',compile=False)
 import numpy as np
 
-rf_tomato= pickle.load(open('model.pkl', 'rb'))
-rf_potato = pickle.load(open('potatomodel.pkl', 'rb'))
-rf_bell = pickle.load(open('bellmodel.pkl', 'rb'))
+# rf_tomato= pickle.load(open('model.pkl', 'rb'))
+# rf_potato = pickle.load(open('potatomodel.pkl', 'rb'))
+# rf_bell = pickle.load(open('bellmodel.pkl', 'rb'))
 
 cnn_diseases=['bbs','b','peb','plb','p','tbs','teb','tlb','t']
 
