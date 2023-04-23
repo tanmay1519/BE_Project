@@ -1,0 +1,1 @@
+gunicorn myproject.wsgi:application --bind $RAILWAY_APP_HOST:$RAILWAY_APP_PORT --workers 4 --log-file=- --error-logfile=-
